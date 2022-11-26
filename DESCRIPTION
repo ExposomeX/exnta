@@ -1,0 +1,16 @@
+Package: exnta
+Title: Conduct the analysis of the features from the high-resolution mass spectrometry.
+Version: 1.0.0
+Authors@R: 
+    person(given='bin',
+    family = 'Wang',
+    role= c('aut','cph','cre'),
+    email = "binwang@pku.edu.cn")
+Description: To conduct the analysis of the features from the high-resolution mass
+    spectrometry. It mainly aims to screen and annotate the significant features 
+    associated with the health outcomes.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: httr,vroom,ggplot2,readxl,gridExtra
